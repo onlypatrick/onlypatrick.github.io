@@ -1,0 +1,19 @@
+@import url("http://fonts.googleapis.com/css?family=Quattrocento|Oswald");
+
+/* - - - - - - - - - - - - - - - - - - - - -
+
+ Title : PatrickTopia Form Style
+ Author : Patrick Slawinski
+ URL : http://www.patricktopia.com/
+
+ Last Updated : Jan. 15, 2012
+
+- - - - - - - - - - - - - - - - - - - - - */
+
+.wufoo .info h2  { text-align: center; font-size: 4em; font-family: 'Oswald', sans-serif; color: #fff; }
+.embed .confirm h2 { font-family: 'Oswald', sans-serif; }
+.wufoo label.desc { font-family: 'Quattrocento', serif; font-weight: normal; font-size: 1.5em; width: 90px; }
+form span.req  { display: none !important; }
+.wufoo input.text, .wufoo textarea.textarea { background-image: none; width: 300px; border: none; padding: 6px 5px 4px 5px;}
+input.btTxt { background: #737373; border: none; color: #fff; cursor: pointer; font-family: 'Oswald', sans-serif; font-size: 1.8em !important; margin-left: -77px; padding: 2px 5px; }
+input.btTxt:hover, input.btTxt:focus { background: #fff; color: #333; }
