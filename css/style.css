@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -16,10 +16,10 @@ table { border-collapse: collapse; border-spacing: 0; }
 a { outline: none; }
 body { background: url('../images/bg_face_portfolio.png') fixed center -27px no-repeat #ddd; color: #333; font-family: 'Quattrocento', serif; font-size: 62.5%; text-align: center; }
 body.portfolio { background: #ddd; }
-h1 { font-family: 'Oswald', sans-serif; font-size: 8em; margin: 30px 0 10px 0; text-transform: uppercase;}
+h1 { font-family: 'Oswald', sans-serif; font-size: 8em; margin: 30px 0 10px 0; text-transform: uppercase; }
 h1:first-letter { letter-spacing: -0.05em; }
 h2 { font-size: 3em; line-height:1.4em; margin-bottom: 8px; }
-h3 { font-family: 'Oswald', sans-serif; font-size: 4em; margin-bottom: 20px;}
+h3 { font-family: 'Oswald', sans-serif; font-size: 4em; margin-bottom: 20px; }
 a { text-decoration: none; }
 p { font-size: 1.6em; line-height: 1.33em; max-height: 5000em; } /* Max height hack stops automatic font boosting in Android browser */
 p a { background: #fff; color: #333; }
@@ -42,12 +42,12 @@ h2#subTitle { font-size: 2.2em; margin: 0 0 30px 0; }
 #indexNav ul li.active, #indexNav ul li:hover { background: #333; color: #fff; }
 #indexNav ul  li a{ color: #333; }
 #indexNav ul li.active a, #indexNav ul li:hover a, #indexNav ul li a:focus{ background: #333; color: #fff; }
-#innerContent { width:1220px; position:relative; transition: left 1s; -moz-transition: left 1s; -webkit-transition: left 1s; -o-transition: left 1s;}
+#innerContent { width:1220px; position:relative; transition: left 1s; -moz-transition: left 1s; -webkit-transition: left 1s; -o-transition: left 1s; }
 #me { height: 408px; margin: 20px auto 30px auto; overflow: hidden; width: 408px; }
 #me img { float: left; }
 #me, #me img, #portfolio ul, #portfolio ul li { border: 2px solid #333; }
 #myName { background: #333; border: 4px solid #fff; color: #fff; display: block; margin: -60px 0 0 0; padding: 5px 2px; position: relative; left: 60px; top: 232px; text-align: center; width: 280px; }
-#portfolio { margin: 25px auto 50px auto; width: 466px;}
+#portfolio { margin: 25px auto 50px auto; width: 466px; }
 #portfolio ul { margin-top: 25px; overflow: hidden; }
 #portfolio ul li { float: left; height: 150px; width: 150px; margin: 0px; text-align: left; }
 #portfolio ul li:hover a.portfolioTitle, a.portfolioTitle:focus { background: rgba(0, 0, 0, 0.75); }
@@ -72,6 +72,7 @@ a.portfolioTitle { background: rgba(0, 0, 0, 0.5); color: #fff; font-size: 2.4em
 #ptFace { background: url('../images/portfolio/animGrad.gif'); }
 #siteLink { margin-bottom: 10px; }
 #siteLink a { padding: 3px 3px 2px 3px; text-transform: uppercase; }
+
 /* Portfolio nav */
 #navs { position: relative; }
 #portfolioList { background: #333; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); display: none; padding: 5px 0; position: absolute; bottom: 73px; left: 114px; width: 158px; }
@@ -89,7 +90,7 @@ a#menu:hover, a#next:focus { background: url('../images/portfolioNav.gif') -50px
 a#next { background: url('../images/portfolioNav.gif') -100px 0 no-repeat; }
 a#next:hover, a#next:focus { background: url('../images/portfolioNav.gif') -100px -50px no-repeat; }
 
-/* amusing animation for the index */
+/* Amusing animation for the index */
 @keyframes shadowAnim {
 	0% { box-shadow:none; }
 	20% { box-shadow:inset 10px 0 10px -10px rgba(0, 0, 0, 0.5), inset -10px 0 10px -10px rgba(0, 0, 0, 0.5); }
@@ -120,7 +121,6 @@ a#next:hover, a#next:focus { background: url('../images/portfolioNav.gif') -100p
 }
 
 /* Mobile/Narrow Window Styling */
-
 @media only screen and (max-width: 959px), only screen and (max-device-width: 959px) {
 	body.portfolio { background: url('../images/bg_face_portfolio.png') fixed center top no-repeat #ddd; }
 	#imgContainer { left: 0; }
@@ -129,12 +129,12 @@ a#next:hover, a#next:focus { background: url('../images/portfolioNav.gif') -100p
 	#portfolioFixed { background: none; height: auto; width: 540px; margin:0 auto; overflow: hidden; position: relative; }
 	#portfolioFixed a h1 { width: 564px; }
 	#portfolioList { left: 191px; }
-	#portfolioNav { margin: 25px auto;}
+	#portfolioNav { margin: 25px auto; }
 }
 
 @media only screen and (max-width: 564px), only screen and (max-device-width: 564px)) {
 	#portfolioContainer{ width: 100%; }
-	#portfolioDescription{ width: 95%; margin: 0 auto;}
+	#portfolioDescription{ width: 95%; margin: 0 auto; }
 	#portfolioDescription p { width: 100%; text-align: left; }
 	#portfolioFixed { width: 100%; }
 	#portfolioFixed a h1 { width: 100%; }
