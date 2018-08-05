@@ -2,11 +2,11 @@
  * jQuery idleTimer plugin
  * version 0.9.100511
  * by Paul Irish.
- *   http://github.com/paulirish/yui-misc/tree/
+ *   https://github.com/paulirish/yui-misc/tree/
  * MIT license
 
  * adapted from YUI idle timer by nzakas:
- *   http://github.com/nzakas/yui-misc/
+ *   https://github.com/nzakas/yui-misc/
 */
 /*
  * Copyright (c) 2009 Nicholas C. Zakas
