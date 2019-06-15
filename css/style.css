@@ -5,7 +5,7 @@ a {
 
 body {
     overscroll-behavior-y: none;
-    background: #dadada;
+    background: #ecf5f2;
     color: rgba(0, 0, 0, 0.8);
     font-size: 62.5%;
     scroll-snap-type: y proximity;
@@ -184,15 +184,15 @@ header {
 }
 
 .portfolio-entry {
-    background-color: #efefef;
+    background-color: #ecf5f2;
 }
 
 .portfolio-entry:nth-child(odd) {
-    background-color: #dadada;
+    background-color: #efe9ec;
 }
 
 .portfolio-entry:nth-child(odd) .portfolio-image {
-    background-color: #333;
+    background-color: #3c393a;
 }
 
 .portfolio-text p {
@@ -214,7 +214,7 @@ header {
     white-space: nowrap;
     scroll-behavior: smooth;
     -webkit-overflow-scrolling: touch;
-    background-color: #444;
+    background-color: #3f4241;
 }
 
 .image-wrap {
