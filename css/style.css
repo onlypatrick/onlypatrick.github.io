@@ -337,10 +337,10 @@ h3 {
     }
 
     .section-brief {
-        font-size: calc(2.6vmin + 1vmax);
+        font-size: calc(2.4vmin + 1vmax);
     }
 
-    .illustration-img:after {
+    .illustration-img:after, .illustration-img:hover:after {
         position: absolute;
         left: 0;
         right: 0;
@@ -365,7 +365,8 @@ h3 {
     }
 
     .section-summary {
-        font-size: calc(1.4vmin + 0.5vmax);
+		height: 100vh;
+        font-size: calc(2vmin + 0.5vmax);
     }
 
     section p {
