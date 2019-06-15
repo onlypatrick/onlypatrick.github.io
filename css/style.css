@@ -341,6 +341,10 @@ header {
 }
 
 @media all and (max-width: 768px) {
+    body {
+        scroll-snap-type: none;
+    }
+
     h1 {
         font-size: calc(10vmin + 3vmax);
     }
@@ -370,7 +374,6 @@ header {
 
     .quarter {
         width: 100%;
-        scroll-snap-align: start;
     }
 
     .section-brief {
