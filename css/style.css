@@ -258,8 +258,8 @@ header {
     display: inline-block;
     line-height: 3vw;
     text-align: center;
-    width: 42px;
-    height: 32px;
+    width: 48px;
+    height: 42px;
     background-color: rgba(255, 255, 255, 0.8);
     position: absolute;
     box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.03);
@@ -279,9 +279,9 @@ header {
 
 .pager i {
     border: solid rgba(0, 0, 0, 0.7);
-    border-width: 0 4px 4px 0;
+    border-width: 0 6px 6px 0;
     display: inline-block;
-    padding: 4px;
+    padding: 6px;
     position: absolute;
 }
 
@@ -290,13 +290,13 @@ header {
 }
 
 .page-down i {
-    top: 8px;
+    top: 9px;
     left: 15px;
     transform: rotate(45deg);
 }
 
 .page-up i {
-    top: 12px;
+    top: 15px;
     left: 15px;
     transform: rotate(225deg);
 }
@@ -363,7 +363,7 @@ header {
     }
 
     h3 {
-        font-size: calc(3vmin + 1vmax);
+        font-size: calc(3.4vmin + 1vmax);
     }
 
     section p {
@@ -377,6 +377,7 @@ header {
     }
 
     .quarter {
+        height: 48vh;
         width: 100%;
     }
 
@@ -412,7 +413,7 @@ header {
     }
 
     .section-illustration img {
-        height: 25vh;
+        height: 24vh;
     }
 
     .portfolio-entry {
@@ -451,15 +452,6 @@ header {
     .image-wrap {
         height: 66vh;
         scroll-snap-align: center;
-        width: 80vw;
-    }
-
-    .image-wrap:first-child {
-        margin-left: 10vw;
-    }
-
-    .image-wrap:last-child {
-        margin-right: 10vw;
     }
 
     .portfolio-image img {

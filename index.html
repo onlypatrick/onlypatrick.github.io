@@ -16,40 +16,35 @@
 <body>
 	<section>
 		<header id="header" class="quarter">
-			<h1>Patr<span class="space-half">i</span>ck<br><!-- yes I did that--><span class="smaller"><span class="space-half">S</span>l<span class="space-zero">a</span>winski</span</h1> </header> <div class="quarter section-brief">
-					<p>Patrick is a product designer with over thirteen years of professional experience. He thinks about design on a systemic level and focuses on solving problems for&nbsp;people.</p>
-					</div>
-					<div class="quarter section-summary">
-						<div class="summary-contents">
-							<p>Patrick leads design for <a href="https://www.gannett.com/" target="_blank">Gannett</a>'s custom content management system, which is used daily by hundreds of journalists across the USA TODAY Network. Since 2014,
-								Patrick has worked with product managers,
-								developers, editorial staff, and fellow designers to completely overhaul Gannett’s CMS.</p>
-							<p>His career has been dedicated to design in media: first designing for the Army Public Affairs site <a href="https://www.army.mil/" target="_blank">Army.mil</a> and its custom content management system. After working his
-								way up to the role of Creative Director he took
-								on a new challenge at <a href="https://www.usnews.com/" target="_blank">U.S. News & World Report</a>, designing interface elements, ranking lists, and infographics while refining his
-								front-end&nbsp;development&nbsp;skills.</p>
-						</div>
-					</div>
-					<nav class="quarter section-illustration">
-						<a class="illustration-img" data-title="Gannett CMS" onclick="document.getElementById('entry-cms').scrollIntoView({behavior:'smooth'});"><img src="images/cms_thumb.jpg" alt="Gannett CMS Alerts tool screen"></a>
-						<a class="illustration-img" data-title="The Wall VR" onclick="document.getElementById('entry-wall').scrollIntoView({behavior:'smooth'});"><img src="images/wall_thumb.jpg" alt="Wall VR menu screenshot"></a>
-						<a class="illustration-img" data-title="U.S. News" onclick="document.getElementById('entry-usn').scrollIntoView({behavior:'smooth'});"><img src="images/usn_thumb.jpg" alt="U.S. News rankings page screen"></a>
-						<a class="illustration-img" data-title="Army.mil" onclick="document.getElementById('entry-armymil').scrollIntoView({behavior:'smooth'});"><img src="images/army_thumb.jpg" alt="Army.mil homepage screen"></a>
-					</nav>
-					<a class="pager page-down" onclick="document.getElementById('entry-cms').scrollIntoView({behavior:'smooth'});"><i></i></a>
+			<h1>Patr<span class="space-half">i</span>ck<br><span class="smaller"><span class="space-half">S</span>l<span class="space-zero">a</span>winski</span></h1>
+		</header>
+		<div class="quarter section-brief">
+			<p>Patrick is a product designer with over thirteen years of professional experience. He thinks about design on a systemic level and focuses on solving problems for&nbsp;people.</p>
+		</div>
+		<div class="quarter section-summary">
+			<div class="summary-contents">
+				<p>Patrick leads design for <a href="https://www.gannett.com/" target="_blank">Gannett</a>'s custom content management system, which is used daily by hundreds of journalists across the USA TODAY Network. Since 2014, Patrick has worked with product managers, developers, editorial staff, and fellow designers to completely overhaul Gannett’s CMS.</p>
+				<p>His career has been dedicated to design in media: first designing for the Army Public Affairs site <a href="https://www.army.mil/" target="_blank">Army.mil</a> and its custom content management system. After working his way up to the role of Creative Director he took on a new challenge at <a href="https://www.usnews.com/" target="_blank">U.S. News &amp; World Report</a>, designing interface elements, ranking lists, and infographics while refining his front-end&nbsp;development&nbsp;skills.</p>
+			</div>
+		</div>
+		<nav class="quarter section-illustration">
+			<a class="illustration-img" data-title="Gannett CMS" onclick="document.getElementById('entry-cms').scrollIntoView({behavior:'smooth'});"><img src="images/cms_thumb.jpg" alt="Gannett CMS Alerts tool screen"></a>
+			<a class="illustration-img" data-title="The Wall VR" onclick="document.getElementById('entry-wall').scrollIntoView({behavior:'smooth'});"><img src="images/wall_thumb.jpg" alt="Wall VR menu screenshot"></a>
+			<a class="illustration-img" data-title="U.S. News" onclick="document.getElementById('entry-usn').scrollIntoView({behavior:'smooth'});"><img src="images/usn_thumb.jpg" alt="U.S. News rankings page screen"></a>
+			<a class="illustration-img" data-title="Army.mil" onclick="document.getElementById('entry-armymil').scrollIntoView({behavior:'smooth'});"><img src="images/army_thumb.jpg" alt="Army.mil homepage screen"></a>
+		</nav>
+		<a class="pager page-down" onclick="document.getElementById('entry-cms').scrollIntoView({behavior:'smooth'});"><i></i></a>
 	</section>
 	<section class="portfolio-entry" id="entry-cms">
 		<div class="portfolio-text split">
 			<h2>Gannett CMS <span class="date">2014 - Present</span></h2>
 			<h3>Project</h3>
-			<p>Gannett's custom CMS powers over 100 news sites visited by more than 100 million readers per month. Sites range in size from small local operations to the large national footprint of USA TODAY. The CMS enables cooperation and
-				coordination across the network as editorial resources are shared across the country and content is seamlessly adapted across sites.</p>
+			<p>Gannett's custom CMS powers over 100 news sites visited by more than 100 million readers per month. Sites range in size from small local operations to the large national footprint of USA TODAY. The CMS enables cooperation and coordination across the network as editorial resources are shared across the country and content is seamlessly adapted across sites.</p>
 			<h3>Work</h3>
-			<p>Patrick is the lead designer for Gannett's CMS, shepherding the tool's user interface through a long transition from legacy technology platforms and front-end frameworks to the fully updated position it's in today. Work has
-				included: user interviews and surveys, persona creation, style guide development, prototype building, SASS stylesheet implementation, rebranding, working within agile processes, and iterative modular UI design throughout.</p>
+			<p>Patrick is the lead designer for Gannett's CMS, shepherding the tool's user interface through a long transition from legacy technology platforms and front-end frameworks to the fully updated position it's in today. Work has included: user interviews and surveys, persona creation, style guide development, prototype building, SASS stylesheet implementation, rebranding, working within agile processes, and iterative modular UI design throughout.</p>
 			<h3 class="sample">Gannett CMS Sample Images</h3>
 		</div>
-		<div class="portfolio-image split">
+		<div class="portfolio-image split" onscroll="dotHighlight('cms');" id="cms-samples">
 			<div class="image-wrap" id="cms0">
 				<img src="images/cms/cms-montage.jpg" alt="CMS design montage of design work" onclick="document.getElementById('dot-cms1').click();">
 			</div>
@@ -109,16 +104,12 @@
 			<h2>The Wall VR <span class="date">2017</span></h2>
 			<p><a href="https://www.usatoday.com/border-wall/usa-today-network-border-project-about-vr-podcasts-map/" target="_blank">https://www.usatoday.com/border-wall/usa-today-network-border-project-about-vr-podcasts-map/</a></p>
 			<h3>Project</h3>
-			<p>The virtual reality component of the <a href="https://www.pulitzer.org/winners/staffs-arizona-republic-and-usa-today-network" target="_blank">2018 Pulitzer Prize winning</a> USA TODAY Network report <a
-					href="https://www.usatoday.com/border-wall/" target="_blank">The
-					Wall</a>. This story brought together reporters, editors, photojournalists, designers, and developers from across the across the country to tell the story of life on the border between the United States and Mexico.</p>
+			<p>The virtual reality component of the <a href="https://www.pulitzer.org/winners/staffs-arizona-republic-and-usa-today-network" target="_blank">2018 Pulitzer Prize winning</a> USA TODAY Network report <a href="https://www.usatoday.com/border-wall/" target="_blank">The Wall</a>. This story brought together reporters, editors, photojournalists, designers, and developers from across the across the country to tell the story of life on the border between the United States and Mexico.</p>
 			<h3>Work</h3>
-			<p>This project involved a lot of sketching and concepting to figure out how best we could tell a story given the expected content and technological capabilities. The team executed a successful experience following some needed
-				pivots as some approaches worked better than others and reporting content came back differently than anticipated. Patrick focused primarily on the user interface but was also deeply involved in the overall presentation of the
-				reporting.</p>
+			<p>This project involved a lot of sketching and concepting to figure out how best we could tell a story given the expected content and technological capabilities. The team executed a successful experience following some needed pivots as some approaches worked better than others and reporting content came back differently than anticipated. Patrick focused primarily on the user interface but was also deeply involved in the VR presentation of the reporting.</p>
 			<h3 class="sample">The Wall VR Sample Images</h3>
 		</div>
-		<div class="portfolio-image split">
+		<div class="portfolio-image split" onscroll="dotHighlight('wall');" id="wall-samples">
 			<div class="image-wrap" id="wall0">
 				<img src="images/wall/wall-montage.jpg" alt="VR Wall design and screenshot montage" onclick="document.getElementById('dot-wall1').click();">
 			</div>
@@ -166,12 +157,10 @@
 			<h3>Project</h3>
 			<p>U.S. News &amp; World Report is an internationally known news publisher and producer of ranking lists.</p>
 			<h3>Work</h3>
-			<p>Patrick spent two years at U.S. News as a Senior User Experience Designer. He collaborated closely with designers, analysts, editorial staff, and the technical team to help keep the success of U.S. News growing. Patrick's work
-				with U.S. News involved every part of the site. He prototyped an updated header, footer, and site navigation structure, created infographics, designed rankings pages, prototyped article templates, created HTML/CSS buttons,
-				visually unified the U.S. News social media presence, designed advertising campaigns, performed usability tests, and more.</p>
+			<p>Patrick spent two years at U.S. News as a Senior User Experience Designer. He collaborated closely with designers, analysts, editorial staff, and the technical team to help keep the success of U.S. News growing. Patrick's work with U.S. News involved every part of the site. He prototyped an updated header, footer, and site navigation structure, created infographics, designed rankings pages, prototyped article templates, created HTML/CSS buttons, visually unified the U.S. News social media presence, designed advertising campaigns, performed usability tests, and more.</p>
 			<h3 class="sample">U.S. News Sample Images</h3>
 		</div>
-		<div class="portfolio-image split">
+		<div class="portfolio-image split" onscroll="dotHighlight('usn');" id="usn-samples">
 			<div class="image-wrap" id="usn0">
 				<img src="images/usn/usn-montage.jpg" alt="U.S. News design montage" onclick="document.getElementById('dot-usn1').click();">
 			</div>
@@ -188,7 +177,7 @@
 				<img src="images/usn/usn-online-programs.jpg" alt="U.S. News Best Online Bachelor's Programs ranking design" onclick="document.getElementById('dot-usn0').click();">
 			</div>
 		</div>
-		<div class="image-nav">
+		<div class="image-nav" id="usn-dots">
 			<div class="dot">
 				<input type="radio" name="usn" id="dot-usn0" onclick="document.getElementById('usn0').scrollIntoView({behavior:'smooth', inline:'center', block:'nearest'});" checked="checked">
 				<label class="selected" for="dot-usn0"></label>
@@ -219,12 +208,10 @@
 			<h3>Project</h3>
 			<p>Army.mil is the news outlet of the United States Army's Office of the Chief of Public affairs. Beyond news, Army.mil regularly features special microsites around events, awards, and anniversaries.</p>
 			<h3>Work</h3>
-			<p>Patrick worked his way from the bottom to the top of the Army.mil design team. His tenure included designing and building multiple microsites, creating a shared home for all of these microsites, communicating with clients, leading a
-				design team,
-				redesigning the home page, mobile article presentation, and search experience, and designing the UI for a custom CMS.</p>
+			<p>Patrick worked his way from the bottom to the top of the Army.mil design team. His tenure included designing and building multiple microsites, creating a shared home for all of these microsites, communicating with clients, leading a design team, redesigning the home page, mobile article presentation, and search experience, and designing the UI for a custom CMS.</p>
 			<h3 class="sample">Army.mil Sample Images</h3>
 		</div>
-		<div class="portfolio-image split">
+		<div class="portfolio-image split" onscroll="dotHighlight('armymil');" id="armymil-samples">
 			<div class="image-wrap" id="armymil0">
 				<img src="images/armymil/armymil-montage.jpg" alt="Army.mil design montage" onclick="document.getElementById('dot-armymil1').click();">
 			</div>
@@ -273,7 +260,27 @@
 		<a class="pager page-up" onclick="document.getElementById('header').scrollIntoView({behavior:'smooth'});"><i></i></a>
 	</section>
 	<script>
-		// This is just here to stop CSS transitions from firing early
+		var entrySectionTarget;
+
+		function dotHighlight(entryTarget) {
+			if (window.matchMedia('(max-width: 768px)').matches) {
+				var isScrolling;
+				entrySectionTarget = entryTarget;
+				document.getElementById(entrySectionTarget + '-samples').addEventListener('scroll', function() {
+					clearTimeout(isScrolling);
+					isScrolling = setTimeout(function() {
+						var sampleWidth = document.getElementById(entrySectionTarget + '-samples').offsetWidth;
+						var sampleX = document.getElementById(entrySectionTarget + '-samples').getElementsByClassName('image-wrap')[0].getBoundingClientRect().left;
+						if (window.matchMedia('(max-width: 768px)').matches) {
+							var currentSample = Math.abs(Math.round((sampleX / sampleWidth)));
+						} else {
+							var currentSample = Math.abs(Math.round((sampleX / sampleWidth)) - 1);
+						}
+						document.getElementById('dot-' + entrySectionTarget + currentSample).checked = true;
+					}, 66);
+				}, false);
+			}
+		}
 	</script>
 </body>
 
