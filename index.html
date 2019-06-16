@@ -31,14 +31,14 @@
 						</div>
 					</div>
 					<nav class="quarter section-illustration">
-						<a class="illustration-img" href="#entry1" data-title="Gannett CMS"><img src="images/cms_thumb.jpg" alt="Gannett CMS Alerts tool screen"></a>
-						<a class="illustration-img" href="#entry2" data-title="The Wall VR"><img src="images/wall_thumb.jpg" alt="Wall VR menu screenshot"></a>
-						<a class="illustration-img" href="#entry3" data-title="U.S. News"><img src="images/usn_thumb.jpg" alt="U.S. News rankings page screen"></a>
-						<a class="illustration-img" href="#entry4" data-title="Army.mil"><img src="images/army_thumb.jpg" alt="Army.mil homepage screen"></a>
+						<a class="illustration-img" data-title="Gannett CMS" onclick="document.getElementById('entry-cms').scrollIntoView({behavior:'smooth'});"><img src="images/cms_thumb.jpg" alt="Gannett CMS Alerts tool screen"></a>
+						<a class="illustration-img" data-title="The Wall VR" onclick="document.getElementById('entry-wall').scrollIntoView({behavior:'smooth'});"><img src="images/wall_thumb.jpg" alt="Wall VR menu screenshot"></a>
+						<a class="illustration-img" data-title="U.S. News" onclick="document.getElementById('entry-usn').scrollIntoView({behavior:'smooth'});"><img src="images/usn_thumb.jpg" alt="U.S. News rankings page screen"></a>
+						<a class="illustration-img" data-title="Army.mil" onclick="document.getElementById('entry-armymil').scrollIntoView({behavior:'smooth'});"><img src="images/army_thumb.jpg" alt="Army.mil homepage screen"></a>
 					</nav>
-					<a class="pager page-down" href="#entry1"><i></i></a>
+					<a class="pager page-down" onclick="document.getElementById('entry-cms').scrollIntoView({behavior:'smooth'});"><i></i></a>
 	</section>
-	<section class="portfolio-entry" id="entry1">
+	<section class="portfolio-entry" id="entry-cms">
 		<div class="portfolio-text split">
 			<h2>Gannett CMS <span class="date">2014 - Present</span></h2>
 			<h3>Project</h3>
@@ -47,6 +47,7 @@
 			<h3>Work</h3>
 			<p>Patrick is the lead designer for Gannett's CMS, shepherding the tool's user interface through a long transition from legacy technology platforms and front-end frameworks to the fully updated position it's in today. Work has
 				included: user interviews and surveys, persona creation, style guide development, prototype building, SASS stylesheet implementation, rebranding, working within agile processes, and iterative modular UI design throughout.</p>
+			<h3 class="sample">Gannett CMS Sample Images</h3>
 		</div>
 		<div class="portfolio-image split">
 			<div class="image-wrap" id="cms0">
@@ -56,61 +57,54 @@
 				<img src="images/cms/cms-alerts.jpg" alt="CMS alerts editor design" onclick="document.getElementById('dot-cms2').click();">
 			</div>
 			<div class="image-wrap" id="cms2">
-				<img src="images/cms/cms-gallery.jpg" alt="CMS gallery editor design" onclick="document.getElementById('dot-cms3').click();">
+				<img src="images/cms/cms-crop-flow.jpg" alt="CMS just-in-time cropping flow" onclick="document.getElementById('dot-cms3').click();">
 			</div>
 			<div class="image-wrap" id="cms3">
-				<img src="images/cms/cms-crop-flow.jpg" alt="CMS just-in-time cropping flow" onclick="document.getElementById('dot-cms4').click();">
+				<img src="images/cms/cms-mobile-planning.jpg" alt="CMS mobile planning calendar design" onclick="document.getElementById('dot-cms4').click();">
 			</div>
 			<div class="image-wrap" id="cms4">
-				<img src="images/cms/cms-mobile-planning.jpg" alt="CMS mobile planning calendar design" onclick="document.getElementById('dot-cms5').click();">
+				<img src="images/cms/cms-image.jpg" alt="CMS image editor design" onclick="document.getElementById('dot-cms5').click();">
 			</div>
 			<div class="image-wrap" id="cms5">
-				<img src="images/cms/cms-image.jpg" alt="CMS image editor design" onclick="document.getElementById('dot-cms6').click();">
+				<img src="images/cms/cms-planning.jpg" alt="CMS newsroom planning design" onclick="document.getElementById('dot-cms6').click();">
 			</div>
 			<div class="image-wrap" id="cms6">
-				<img src="images/cms/cms-planning.jpg" alt="CMS newsroom planning design" onclick="document.getElementById('dot-cms7').click();">
-			</div>
-			<div class="image-wrap" id="cms7">
 				<img src="images/cms/cms-story.jpg" alt="CMS story editor screenshot" onclick="document.getElementById('dot-cms0').click();">
 			</div>
 		</div>
 		<div class="image-nav">
-			<div class="dot" href="#cms0">
-				<input type="radio" name="cms" id="dot-cms0" onclick="window.location='#cms0';" checked="checked">
+			<div class="dot">
+				<input type="radio" name="cms" id="dot-cms0" onclick="document.getElementById('cms0').scrollIntoView({behavior:'smooth', inline:'center', block:'nearest'});" checked="checked">
 				<label class="selected" for="dot-cms0"></label>
 			</div>
-			<div class="dot" href="#cms1">
-				<input type="radio" name="cms" id="dot-cms1" onclick="window.location='#cms1';">
+			<div class="dot">
+				<input type="radio" name="cms" id="dot-cms1" onclick="document.getElementById('cms1').scrollIntoView({behavior:'smooth', inline:'center', block:'nearest'});">
 				<label class="selected" for="dot-cms1"></label>
 			</div>
-			<div class="dot" href="#cms2">
-				<input type="radio" name="cms" id="dot-cms2" onclick="window.location='#cms2';">
+			<div class="dot">
+				<input type="radio" name="cms" id="dot-cms2" onclick="document.getElementById('cms2').scrollIntoView({behavior:'smooth', inline:'center', block:'nearest'});">
 				<label class="selected" for="dot-cms2"></label>
 			</div>
-			<div class="dot" href="#cms3">
-				<input type="radio" name="cms" id="dot-cms3" onclick="window.location='#cms3';">
+			<div class="dot">
+				<input type="radio" name="cms" id="dot-cms3" onclick="document.getElementById('cms3').scrollIntoView({behavior:'smooth', inline:'center', block:'nearest'});">
 				<label class="selected" for="dot-cms3"></label>
 			</div>
-			<div class="dot" href="#cms4">
-				<input type="radio" name="cms" id="dot-cms4" onclick="window.location='#cms4';">
+			<div class="dot">
+				<input type="radio" name="cms" id="dot-cms4" onclick="document.getElementById('cms4').scrollIntoView({behavior:'smooth', inline:'center', block:'nearest'});">
 				<label class="selected" for="dot-cms4"></label>
 			</div>
-			<div class="dot" href="#cms5">
-				<input type="radio" name="cms" id="dot-cms5" onclick="window.location='#cms5';">
+			<div class="dot">
+				<input type="radio" name="cms" id="dot-cms5" onclick="document.getElementById('cms5').scrollIntoView({behavior:'smooth', inline:'center', block:'nearest'});">
 				<label class="selected" for="dot-cms5"></label>
 			</div>
-			<div class="dot" href="#cms6">
-				<input type="radio" name="cms" id="dot-cms6" onclick="window.location='#cms6';">
+			<div class="dot">
+				<input type="radio" name="cms" id="dot-cms6" onclick="document.getElementById('cms6').scrollIntoView({behavior:'smooth', inline:'center', block:'nearest'});">
 				<label class="selected" for="dot-cms6"></label>
 			</div>
-			<div class="dot" href="#cms7">
-				<input type="radio" name="cms" id="dot-cms7" onclick="window.location='#cms7';">
-				<label class="selected" for="dot-cms7"></label>
-			</div>
 		</div>
-		<a class="pager page-down" href="#entry2"><i></i></a>
+		<a class="pager page-down" onclick="document.getElementById('entry-wall').scrollIntoView({behavior:'smooth'});"><i></i></a>
 	</section>
-	<section class="portfolio-entry" id="entry2">
+	<section class="portfolio-entry" id="entry-wall">
 		<div class="portfolio-text split">
 			<h2>The Wall VR <span class="date">2017</span></h2>
 			<p><a href="https://www.usatoday.com/border-wall/usa-today-network-border-project-about-vr-podcasts-map/" target="_blank">https://www.usatoday.com/border-wall/usa-today-network-border-project-about-vr-podcasts-map/</a></p>
@@ -122,6 +116,7 @@
 			<p>This project involved a lot of sketching and concepting to figure out how best we could tell a story given the expected content and technological capabilities. The team executed a successful experience following some needed
 				pivots as some approaches worked better than others and reporting content came back differently than anticipated. Patrick focused primarily on the user interface but was also deeply involved in the overall presentation of the
 				reporting.</p>
+			<h3 class="sample">The Wall VR Sample Images</h3>
 		</div>
 		<div class="portfolio-image split">
 			<div class="image-wrap" id="wall0">
@@ -141,30 +136,30 @@
 			</div>
 		</div>
 		<div class="image-nav">
-			<div class="dot" href="#wall0">
-				<input type="radio" name="wall" id="dot-wall0" onclick="window.location='#wall0';" checked="checked">
+			<div class="dot">
+				<input type="radio" name="wall" id="dot-wall0" onclick="document.getElementById('wall0').scrollIntoView({behavior:'smooth', inline:'center', block:'nearest'});" checked="checked">
 				<label class="selected" for="dot-wall0"></label>
 			</div>
-			<div class="dot" href="#wall1">
-				<input type="radio" name="wall" id="dot-wall1" onclick="window.location='#wall1';">
+			<div class="dot">
+				<input type="radio" name="wall" id="dot-wall1" onclick="document.getElementById('wall1').scrollIntoView({behavior:'smooth', inline:'center', block:'nearest'});">
 				<label class="selected" for="dot-wall1"></label>
 			</div>
-			<div class="dot" href="#wall2">
-				<input type="radio" name="wall" id="dot-wall2" onclick="window.location='#wall2';">
+			<div class="dot">
+				<input type="radio" name="wall" id="dot-wall2" onclick="document.getElementById('wall2').scrollIntoView({behavior:'smooth', inline:'center', block:'nearest'});">
 				<label class="selected" for="dot-wall2"></label>
 			</div>
-			<div class="dot" href="#wall3">
-				<input type="radio" name="wall" id="dot-wall3" onclick="window.location='#wall3';">
+			<div class="dot">
+				<input type="radio" name="wall" id="dot-wall3" onclick="document.getElementById('wall3').scrollIntoView({behavior:'smooth', inline:'center', block:'nearest'});">
 				<label class="selected" for="dot-wall3"></label>
 			</div>
-			<div class="dot" href="#wall4">
-				<input type="radio" name="wall" id="dot-wall4" onclick="window.location='#wall4';">
+			<div class="dot">
+				<input type="radio" name="wall" id="dot-wall4" onclick="document.getElementById('wall4').scrollIntoView({behavior:'smooth', inline:'center', block:'nearest'});">
 				<label class="selected" for="dot-wall4"></label>
 			</div>
 		</div>
-		<a class="pager page-down" href="#entry3"><i></i></a>
+		<a class="pager page-down" onclick="document.getElementById('entry-usn').scrollIntoView({behavior:'smooth'});"><i></i></a>
 	</section>
-	<section class="portfolio-entry" id="entry3">
+	<section class="portfolio-entry" id="entry-usn">
 		<div class="portfolio-text split">
 			<h2>U.S. News <span class="date">2012 - 2014</span></h2>
 			<p><a href="https://www.usnews.com/" target="_blank">https://www.usnews.com</a></p>
@@ -174,6 +169,7 @@
 			<p>Patrick spent two years at U.S. News as a Senior User Experience Designer. He collaborated closely with designers, analysts, editorial staff, and the technical team to help keep the success of U.S. News growing. Patrick's work
 				with U.S. News involved every part of the site. He prototyped an updated header, footer, and site navigation structure, created infographics, designed rankings pages, prototyped article templates, created HTML/CSS buttons,
 				visually unified the U.S. News social media presence, designed advertising campaigns, performed usability tests, and more.</p>
+			<h3 class="sample">U.S. News Sample Images</h3>
 		</div>
 		<div class="portfolio-image split">
 			<div class="image-wrap" id="usn0">
@@ -193,30 +189,30 @@
 			</div>
 		</div>
 		<div class="image-nav">
-			<div class="dot" href="#usn0">
-				<input type="radio" name="usn" id="dot-usn0" onclick="window.location='#usn0';" checked="checked">
+			<div class="dot">
+				<input type="radio" name="usn" id="dot-usn0" onclick="document.getElementById('usn0').scrollIntoView({behavior:'smooth', inline:'center', block:'nearest'});" checked="checked">
 				<label class="selected" for="dot-usn0"></label>
 			</div>
-			<div class="dot" href="#usn1">
-				<input type="radio" name="usn" id="dot-usn1" onclick="window.location='#usn1';">
+			<div class="dot">
+				<input type="radio" name="usn" id="dot-usn1" onclick="document.getElementById('usn1').scrollIntoView({behavior:'smooth', inline:'center', block:'nearest'});">
 				<label class="selected" for="dot-usn1"></label>
 			</div>
-			<div class="dot" href="#usn2">
-				<input type="radio" name="usn" id="dot-usn2" onclick="window.location='#usn2';">
+			<div class="dot">
+				<input type="radio" name="usn" id="dot-usn2" onclick="document.getElementById('usn2').scrollIntoView({behavior:'smooth', inline:'center', block:'nearest'});">
 				<label class="selected" for="dot-usn2"></label>
 			</div>
-			<div class="dot" href="#usn3">
-				<input type="radio" name="usn" id="dot-usn3" onclick="window.location='#usn3';">
+			<div class="dot">
+				<input type="radio" name="usn" id="dot-usn3" onclick="document.getElementById('usn3').scrollIntoView({behavior:'smooth', inline:'center', block:'nearest'});">
 				<label class="selected" for="dot-usn3"></label>
 			</div>
-			<div class="dot" href="#usn4">
-				<input type="radio" name="usn" id="dot-usn4" onclick="window.location='#usn4';">
+			<div class="dot">
+				<input type="radio" name="usn" id="dot-usn4" onclick="document.getElementById('usn4').scrollIntoView({behavior:'smooth', inline:'center', block:'nearest'});">
 				<label class="selected" for="dot-usn4"></label>
 			</div>
 		</div>
-		<a class="pager page-down" href="#entry4"><i></i></a>
+		<a class="pager page-down" onclick="document.getElementById('entry-armymil').scrollIntoView({behavior:'smooth'});"><i></i></a>
 	</section>
-	<section class="portfolio-entry" id="entry4">
+	<section class="portfolio-entry" id="entry-armymil">
 		<div class="portfolio-text split">
 			<h2>Army.mil <span class="date">2006 - 2012</span></h2>
 			<p><a href="https://www.army.mil/" target="_blank">https://www.army.mil</a></p>
@@ -226,6 +222,7 @@
 			<p>Patrick worked his way from the bottom to the top of the Army.mil design team. His tenure included designing and building multiple microsites, creating a shared home for all of these microsites, communicating with clients, leading a
 				design team,
 				redesigning the home page, mobile article presentation, and search experience, and designing the UI for a custom CMS.</p>
+			<h3 class="sample">Army.mil Sample Images</h3>
 		</div>
 		<div class="portfolio-image split">
 			<div class="image-wrap" id="armymil0">
@@ -248,32 +245,32 @@
 			</div>
 		</div>
 		<div class="image-nav">
-			<div class="dot" href="#armymil0">
-				<input type="radio" name="armymil" id="dot-armymil0" onclick="window.location='#armymil0';" checked="checked">
+			<div class="dot">
+				<input type="radio" name="armymil" id="dot-armymil0" onclick="document.getElementById('armymil0').scrollIntoView({behavior:'smooth', inline:'center', block:'nearest'});" checked="checked">
 				<label class="selected" for="dot-armymil0"></label>
 			</div>
-			<div class="dot" href="#armymil1">
-				<input type="radio" name="armymil" id="dot-armymil1" onclick="window.location='#armymil1';">
+			<div class="dot">
+				<input type="radio" name="armymil" id="dot-armymil1" onclick="document.getElementById('armymil1').scrollIntoView({behavior:'smooth', inline:'center', block:'nearest'});">
 				<label class="selected" for="dot-armymil1"></label>
 			</div>
-			<div class="dot" href="#armymil2">
-				<input type="radio" name="armymil" id="dot-armymil2" onclick="window.location='#armymil2';">
+			<div class="dot">
+				<input type="radio" name="armymil" id="dot-armymil2" onclick="document.getElementById('armymil2').scrollIntoView({behavior:'smooth', inline:'center', block:'nearest'});">
 				<label class="selected" for="dot-armymil2"></label>
 			</div>
-			<div class="dot" href="#armymil3">
-				<input type="radio" name="armymil" id="dot-armymil3" onclick="window.location='#armymil3';">
+			<div class="dot">
+				<input type="radio" name="armymil" id="dot-armymil3" onclick="document.getElementById('armymil3').scrollIntoView({behavior:'smooth', inline:'center', block:'nearest'});">
 				<label class="selected" for="dot-armymil3"></label>
 			</div>
-			<div class="dot" href="#armymil4">
-				<input type="radio" name="armymil" id="dot-armymil4" onclick="window.location='#armymil4';">
+			<div class="dot">
+				<input type="radio" name="armymil" id="dot-armymil4" onclick="document.getElementById('armymil4').scrollIntoView({behavior:'smooth', inline:'center', block:'nearest'});">
 				<label class="selected" for="dot-armymil4"></label>
 			</div>
-			<div class="dot" href="#armymil5">
-				<input type="radio" name="armymil" id="dot-armymil5" onclick="window.location='#armymil5';">
+			<div class="dot">
+				<input type="radio" name="armymil" id="dot-armymil5" onclick="document.getElementById('armymil5').scrollIntoView({behavior:'smooth', inline:'center', block:'nearest'});">
 				<label class="selected" for="dot-armymil5"></label>
 			</div>
 		</div>
-		<a class="pager page-up" href="#header"><i></i></a>
+		<a class="pager page-up" onclick="document.getElementById('header').scrollIntoView({behavior:'smooth'});"><i></i></a>
 	</section>
 	<script>
 		// This is just here to stop CSS transitions from firing early

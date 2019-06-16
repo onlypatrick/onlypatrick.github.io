@@ -57,7 +57,7 @@ p {
 
 p a {
     color: white;
-    border-bottom: 2px solid rgba(255,255,255,0.7);
+    border-bottom: 2px solid rgba(255, 255, 255, 0.7);
     transition: 300ms background-color;
 }
 
@@ -201,11 +201,15 @@ header {
 
 .portfolio-text p a {
     color: black;
-    border-color: rgba(0,0,0,0.5);
+    border-color: rgba(0, 0, 0, 0.5);
 }
 
 .portfolio-text p a:hover, .portfolio-text p a:focus, .portfolio-text p a:active {
     background-color: white;
+}
+
+.sample {
+    display: none;
 }
 
 .portfolio-image {
@@ -265,6 +269,7 @@ header {
     transform: translateX(-50%);
     z-index: 20;
     border-radius: 8px;
+    cursor: pointer;
 }
 
 .pager:hover, .pager:focus, .pager:active {
@@ -369,7 +374,6 @@ header {
 
     .split {
         width: 100%;
-        height: 50vh;
     }
 
     .quarter {
@@ -381,8 +385,14 @@ header {
     }
 
     .section-summary {
-        height: 100vh;
+        height: auto;
         font-size: calc(2vmin + 0.5vmax);
+    }
+
+    .summary-contents {
+        top: auto;
+        transform: none;
+        padding: 6vh 0;
     }
 
     .illustration-img:after, .illustration-img:hover:after {
@@ -414,27 +424,42 @@ header {
 
     .portfolio-text.split {
         height: auto;
-        padding-bottom: 6vw;
     }
 
     .portfolio-text p {
-        font-size: calc(1.8vmin + 1vmax);
+        font-size: calc(2vmin + 1vmax);
+    }
+
+    .sample {
+        background-color: rgba(63, 66, 65, 0.2);
+        display: inline-block;
+        padding: 1.5vw 2vw 1vw 2vw;
+        margin-left: 4vw;
+        margin-bottom: 0;
+    }
+
+    .portfolio-entry:nth-child(odd) .sample {
+        background-color: rgba(60, 57, 58, 0.2);
     }
 
     .portfolio-image.split {
         height: 66vh;
         overflow-x: scroll;
-        scroll-snap-type: x proximity;
+        scroll-snap-type: x mandatory;
     }
 
     .image-wrap {
         height: 66vh;
         scroll-snap-align: center;
-        width: 86vw;
+        width: 80vw;
     }
 
     .image-wrap:first-child {
-        margin-left: 7vw;
+        margin-left: 10vw;
+    }
+
+    .image-wrap:last-child {
+        margin-right: 10vw;
     }
 
     .portfolio-image img {
@@ -447,6 +472,6 @@ header {
     }
 
     .image-nav {
-        display: none;
+        right: 50%;
     }
 }
