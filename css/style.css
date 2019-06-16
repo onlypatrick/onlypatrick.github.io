@@ -9,9 +9,9 @@ body {
     color: rgba(0, 0, 0, 0.8);
     font-size: 62.5%;
     scroll-snap-type: y proximity;
-    -webkit-overflow-scrolling: touch;
     overflow-x: hidden;
     font-family: sans-serif;
+    -webkit-overflow-scrolling: touch;
 }
 
 html {
@@ -377,7 +377,7 @@ header {
     }
 
     .quarter {
-        height: 48vh;
+        height: 44vh;
         width: 100%;
     }
 
@@ -447,6 +447,7 @@ header {
         height: 66vh;
         overflow-x: scroll;
         scroll-snap-type: x mandatory;
+        -webkit-overflow-scrolling: touch;
     }
 
     .image-wrap {
@@ -465,5 +466,10 @@ header {
 
     .image-nav {
         right: 50%;
+    }
+}
+@supports (-webkit-overflow-scrolling: touch) {
+    body {
+        scroll-snap-type: none;
     }
 }
