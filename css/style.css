@@ -226,11 +226,7 @@ header {
     width: 100%;
     display: inline-block;
     position: relative;
-    cursor: e-resize;
-}
-
-.image-wrap:last-child {
-    cursor: w-resize;
+    cursor: pointer;
 }
 
 .portfolio-image img {
