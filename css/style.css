@@ -5,7 +5,7 @@ a {
 
 body {
     overscroll-behavior-y: none;
-    background: #ecf5f2;
+    background: GhostWhite;
     color: rgba(0, 0, 0, 0.8);
     font-size: 62.5%;
     scroll-snap-type: y proximity;
@@ -83,7 +83,7 @@ section:last-of-type .portfolio-text {
 }
 
 header {
-    background: url('../images/bg_face_portfolio.png') 2em -2em no-repeat fixed #60ffd2;
+    background: url('../images/bg_face_portfolio.png') 2em -2em no-repeat fixed silver;
     background-size: calc(110vh);
     text-align: center;
 }
@@ -113,7 +113,7 @@ header {
 }
 
 .section-brief {
-    background-color: #ffd5ec;
+    background-color: GhostWhite;
     font-size: calc(1.4vmin + 0.8vmax);
 }
 
@@ -184,15 +184,15 @@ header {
 }
 
 .portfolio-entry {
-    background-color: #ecf5f2;
+    background-color: GhostWhite;
 }
 
 .portfolio-entry:nth-child(odd) {
-    background-color: #efe9ec;
+    background-color: GhostWhite;
 }
 
 .portfolio-entry:nth-child(odd) .portfolio-image {
-    background-color: #3c393a;
+    background-color: Silver;
 }
 
 .portfolio-text p {
