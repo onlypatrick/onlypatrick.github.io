@@ -184,7 +184,7 @@ header {
 }
 
 .portfolio-entry {
-    background-color: Silver;
+    background-color: LightSteelBlue;
 }
 
 .portfolio-entry:nth-child(odd) {
