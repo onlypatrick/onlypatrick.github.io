@@ -83,7 +83,7 @@ section:last-of-type .portfolio-text {
 }
 
 header {
-    background: url('../images/bg_face_portfolio.png') 2em -2em no-repeat fixed silver;
+    background: url('../images/bg_face_portfolio.png') 2em -2em no-repeat fixed LightSlateGray;
     background-size: calc(110vh);
     text-align: center;
 }
