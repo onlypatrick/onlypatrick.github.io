@@ -124,7 +124,7 @@ header {
 }
 
 .section-summary {
-    background-color: DarkSlateGrey;
+    background-color: DimGrey;
     color: rgba(255, 255, 255, 0.9);
     font-size: calc(0.85vmin + 0.3vmax);
     float: right;
@@ -192,7 +192,7 @@ header {
 }
 
 .portfolio-entry:nth-child(odd) .portfolio-image {
-    background-color: SlateGrey;
+    background-color: LightSlateGrey;
 }
 
 .portfolio-text p {
@@ -218,7 +218,7 @@ header {
     white-space: nowrap;
     scroll-behavior: smooth;
     -webkit-overflow-scrolling: touch;
-    background-color: LightSlateGray;
+    background-color: SlateGray;
 }
 
 .image-wrap {
