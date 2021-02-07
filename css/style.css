@@ -184,15 +184,15 @@ header {
 }
 
 .portfolio-entry {
-    background-color: GhostWhite;
-}
-
-.portfolio-entry:nth-child(odd) {
     background-color: Silver;
 }
 
+.portfolio-entry:nth-child(odd) {
+    background-color: GhostWhite;
+}
+
 .portfolio-entry:nth-child(odd) .portfolio-image {
-    background-color: LightSlateGray;
+    background-color: SlateGrey;
 }
 
 .portfolio-text p {
