@@ -124,7 +124,7 @@ header {
 }
 
 .section-summary {
-    background-color: #3c2d5f;
+    background-color: DarkSlateGrey;
     color: rgba(255, 255, 255, 0.9);
     font-size: calc(0.85vmin + 0.3vmax);
     float: right;
@@ -218,7 +218,7 @@ header {
     white-space: nowrap;
     scroll-behavior: smooth;
     -webkit-overflow-scrolling: touch;
-    background-color: #3f4241;
+    background-color: LightSlateGray;
 }
 
 .image-wrap {
