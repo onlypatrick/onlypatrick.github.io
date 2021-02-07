@@ -124,7 +124,7 @@ header {
 }
 
 .section-summary {
-    background-color: DimGrey;
+    background-color: SlateGray;
     color: rgba(255, 255, 255, 0.9);
     font-size: calc(0.85vmin + 0.3vmax);
     float: right;
