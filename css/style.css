@@ -83,7 +83,7 @@ section:last-of-type .portfolio-text {
 }
 
 header {
-    background: url('../images/bg_face_portfolio.png') 2em -2em no-repeat fixed rgba(0,0,0,0.3);
+    background: url('../images/bg_face_portfolio.png') 2em -2em no-repeat fixed rgba(0,0,0,0.1);
     background-size: calc(110vh);
     text-align: center;
 }
@@ -124,7 +124,7 @@ header {
 }
 
 .section-summary {
-    background-color: rgba(0,0,0,0.8);
+    background-color: rgba(0,0,0,0.7);
     color: rgba(255, 255, 255, 0.9);
     font-size: calc(0.85vmin + 0.3vmax);
     float: right;
@@ -184,15 +184,15 @@ header {
 }
 
 .portfolio-entry {
-    background-color: rgba(0,0,0,0.2);
+    background-color: rgba(0,0,0,0.1);
 }
 
 .portfolio-entry:nth-child(odd) {
-    background-color: rgba(0,0,0,0.3);
+    background-color: rgba(0,0,0,0.2);
 }
 
 .portfolio-entry:nth-child(odd) .portfolio-image {
-    background-color: rgba(0,0,0,0.6);
+    background-color: rgba(0,0,0,0.7);
 }
 
 .portfolio-text p {
@@ -218,7 +218,7 @@ header {
     white-space: nowrap;
     scroll-behavior: smooth;
     -webkit-overflow-scrolling: touch;
-    background-color: rgba(0,0,0,0.7);
+    background-color: rgba(0,0,0,0.6);
 }
 
 .image-wrap {
