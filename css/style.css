@@ -113,7 +113,7 @@ nav a:hover {
     background-color: rgba(255,255,255,0.9);
 }
 
-#photo-credit {
+.photo-credit {
     position: absolute;
     bottom: 40px;
     right:40px;
@@ -123,7 +123,11 @@ nav a:hover {
     transition: 0.5s;
 }
 
-#photo-credit:hover {
+.about .photo-credit {
+    display: none;
+}
+
+.photo-credit:hover {
     color: white;
     text-shadow: 0 0 8px black;
 }
@@ -288,9 +292,13 @@ nav a:hover {
         display: none;
     }
 
-    #photo-credit {
+    .photo-credit {
         bottom: 10px;
         right: 20px
+    }
+
+    .portrait .photo-credit{
+        display: none;
     }
 
     .split {
