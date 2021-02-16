@@ -114,17 +114,22 @@ nav a:hover {
 }
 
 .photo-credit {
-    position: absolute;
-    bottom: 40px;
-    right:40px;
     color: rgba(255,255,255,0.7);
     text-shadow: 0 0 8px rgba(0,0,0,0.5);
-    font-size:1.4em;
+    font-size: 1vw;
     transition: 0.5s;
 }
 
 .about .photo-credit {
     display: none;
+    text-align: right;
+    position: relative;
+}
+
+.portrait .photo-credit {
+    position: absolute;
+    bottom: 40px;
+    right:40px;
 }
 
 .photo-credit:hover {
@@ -293,8 +298,14 @@ nav a:hover {
     }
 
     .photo-credit {
-        bottom: 10px;
-        right: 20px
+        font-size: 3vw;
+        float: right;
+        margin-right: 4vw;
+        top: -4vw;
+    }
+
+    .about .photo-credit {
+        display: inline-block;
     }
 
     .portrait .photo-credit{
@@ -382,7 +393,7 @@ nav a:hover {
     .section-brief p {
         font-size: 5.5vw;
     }
-    
+
     .summary-contents p, .portfolio-text p {
         font-size: 4.5vw;
     }
