@@ -265,7 +265,7 @@ nav a:hover {
     }
 
     h2 {
-        font-size: 5vw;
+        font-size: 6vw;
         margin:1vw 0 0.5vw;
     }
 
@@ -319,13 +319,16 @@ nav a:hover {
     .summary-contents {
         top: auto;
         transform: none;
-        margin-bottom: 40px;
+        margin: 4vw 0 8vw;
     }
-    .summary-contents p{
+
+    .summary-contents p {
         background-color: rgba(0,0,0,0.5);
-        margin: 2vw 2vw;
-        padding: 1vw 2vw 2vw;
+        padding: 4vw 4vw 0;
         font-size: 4vw;
+    }
+    .summary-contents p:last-of-type {
+        padding-bottom: 4vw;
     }
 
     .portfolio-entry {
@@ -372,5 +375,15 @@ nav a:hover {
 
     .image-nav {
         right: 50%;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .section-brief p {
+        font-size: 5.5vw;
+    }
+    
+    .summary-contents p, .portfolio-text p {
+        font-size: 4.5vw;
     }
 }
